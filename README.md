@@ -7,7 +7,7 @@ Dependency injection is a software design pattern that deals with the management
 - Flexibility: DI allows you to swap out dependencies with alternative implementations, making it easier to adapt to changing requirements. 
 - Reusability: By decoupling components, you can reuse code more effectively, reducing duplication and improving maintainability.
 
-**Types of Dependency Injection in Flutter**
+**Types of Dependency Injection in Flutter**<br />
 There are several ways to implement dependency injection in Flutter. Three common approaches are:
 
 - **Constructor Injection**: Dependencies are injected through a class’s constructor.
@@ -63,7 +63,7 @@ authService.setAuthProvider(authProvider);
 final user = await authService.signIn('user@example.com', 'password123');
 ```
 
-- Provider Injection: Dependencies are provided using a global service locator, Provider injection uses a service locator to provide dependencies globally. A popular package for this in Flutter is get_it.
+- Provider Injection: Dependencies are provided using a global service locator, Provider injection uses a service locator to provide dependencies globally. A popular package for this in Flutter is [get_it](https://pub.dev/packages/get_it).
 
 ```
 import 'package:get_it/get_it.dart';
